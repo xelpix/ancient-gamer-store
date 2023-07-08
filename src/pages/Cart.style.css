@@ -1,0 +1,49 @@
+.cart-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.games-in-cart-underline {
+  height: 2px;
+  width: 100%;
+  background-color: #222;
+  margin-bottom: 10px;
+}
+
+.games-in-cart-total-wrapper {
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.games-in-cart-btns-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.games-in-cart-zero-amount {
+  text-align: center;
+}
+
+.cart-btn {
+  border: none;
+  padding: 4px 12px;
+  font-family: inherit;
+  cursor: pointer;
+  border: 3px solid #222;
+  background-color: rgb(223, 223, 223);
+
+  margin-right: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.games-in-cart-clear-all-btn {
+  border: 2px solid #b1121f;
+}
+
+.games-in-cart-clear-all-btn:hover {
+  background-color: #b1121f;
+  color: whitesmoke;
+}

@@ -1,0 +1,23 @@
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  gap: 14px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  border: none;
+  padding: 6px 12px;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  background-color: rgb(188, 192, 199);
+}
+
+.active-btn {
+  background-color: orangered;
+}

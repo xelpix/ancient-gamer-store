@@ -1,0 +1,16 @@
+.radio-img {
+  width: 120px;
+}
+
+.contact-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.telegram-link {
+  font-size: 30px;
+  color: #222;
+}

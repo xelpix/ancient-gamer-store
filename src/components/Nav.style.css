@@ -1,0 +1,121 @@
+.nav-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-svg {
+  width: 40px;
+}
+
+.nav {
+  background-color: #222;
+  padding: 20px 0;
+}
+
+.nav-links {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.link {
+  margin-right: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: orangered;
+}
+
+.active {
+  color: orangered;
+}
+
+.cart-icon {
+  font-size: 24px;
+}
+
+.cart-wrapper {
+  position: relative;
+}
+
+.cart-round {
+  position: absolute;
+  background-color: whitesmoke;
+  color: #222;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  padding: 3px 3px;
+  border-radius: 50%;
+  top: -14px;
+  right: -8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.round-active {
+  position: absolute;
+  background-color: orangered;
+  color: #222;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  padding: 3px 3px;
+  border-radius: 50%;
+  top: -14px;
+  right: -8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.cart-link:hover {
+  color: orangered;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-wrapper:hover .cart-round {
+  transition: all 0.3s ease-in-out;
+  background-color: orangered;
+}
+
+.hamburger-btn {
+  background-color: transparent;
+  color: whitesmoke;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-btn:hover {
+  color: orangered;
+}
+
+@media (max-width: 578px) {
+  .hamburger-btn {
+    display: block;
+  }
+
+  .site-logo {
+    display: none;
+  }
+
+  .cart-link {
+    position: relative;
+    top: 4px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cart-link {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+  }
+}

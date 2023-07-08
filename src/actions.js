@@ -1,0 +1,9 @@
+export const GET_FROM_LS = 'GET_FROM_LS';
+export const SAVE_TO_LS = 'SAVE_TO_LS';
+export const GET_TOTALS = 'GET_TOTALS';
+export const OPEN_SIDEBAR = 'OPEN_SIDEBAR';
+export const CLOSE_SIDEBAR = 'CLOSE_SIDEBAR';
+export const FILTER_ITEMS = 'FILTER_ITEMS';
+export const INCREASE_AMOUNT = 'INCREASE_AMOUNT';
+export const DECREASE_AMOUNT = 'DECREASE_AMOUNT';
+export const CLEAR_CART = 'CLEAR_CART';

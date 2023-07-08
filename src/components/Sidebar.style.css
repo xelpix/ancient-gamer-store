@@ -1,0 +1,56 @@
+.sidebar {
+  background-color: #222;
+  position: fixed;
+  width: 280px;
+  height: 100%;
+  padding: 20px;
+  transform: translateX(-200%);
+  transition: all 0.3s linear;
+  z-index: 999;
+}
+
+.logo-sidebar {
+  width: 40px;
+  height: 40px;
+}
+
+.show-sidebar {
+  transform: translateX(0);
+}
+
+.sidebar-logo {
+  color: whitesmoke;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-sidebar-btn {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 8px;
+  font-size: 20px;
+  border: none;
+  color: whitesmoke;
+  transition: all 0.3s ease-in;
+}
+
+.close-sidebar-btn:hover {
+  color: orangered;
+}
+
+.sidebar-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+/* simple way to hide it on a wider screen */
+@media (min-width: 578px) {
+  .sidebar {
+    display: none;
+  }
+}

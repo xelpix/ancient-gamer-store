@@ -1,0 +1,127 @@
+.home {
+  min-height: 100vh;
+  align-items: center;
+  background-color: #111010;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(84, 84, 84, 0.466));
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  line-height: 1;
+}
+
+.home-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* too much css */
+/* go to original .css for details */
+
+.welcome {
+  color: rgba(245, 245, 245, 0.462);
+}
+
+.ag-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.home-text {
+  text-align: justify;
+}
+
+.underline {
+  width: 80px;
+  height: 2px;
+  background-color: rgba(245, 245, 245, 0.716);
+  margin: 40px 0;
+}
+
+.choose-games {
+  border: 2px solid whitesmoke;
+  padding: 8px 14px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  transition: all 0.3s ease-in;
+}
+
+.choose-games:hover {
+  background-color: whitesmoke;
+  color: #222;
+  transition: all 0.3s ease-in;
+}
+
+.med {
+  height: 260px;
+  align-self: end;
+}
+
+.pyramid {
+  height: 400px;
+  align-self: end;
+}
+
+.sh-pair {
+  display: flex;
+  margin-top: auto;
+  gap: 200px;
+}
+
+@media (max-width: 1200px) {
+  .sh-pair {
+    gap: 120px;
+  }
+  .med {
+    height: 230px;
+  }
+
+  .pyramid {
+    height: 380px;
+  }
+}
+
+@media (max-width: 900px) {
+  .med {
+    height: 220px;
+  }
+
+  .pyramid {
+    height: 290px;
+  }
+
+  .sh-pair {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .med {
+    height: 150px;
+  }
+
+  .pyramid {
+    height: 240px;
+  }
+
+  .sh-pair {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .med {
+    height: 100px;
+  }
+
+  .pyramid {
+    height: 140px;
+  }
+}
